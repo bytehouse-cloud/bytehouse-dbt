@@ -1,0 +1,22 @@
+---
+default:
+  outputs:
+
+    dev:
+      type: bytehouse
+      schema: [database name]
+      host: [host]
+
+      port: [port]
+      user: [user]
+      password: [password]
+
+    prod:
+      type: bytehouse
+      schema: [database name]
+      host: [host]
+
+      port: [port]
+      user: [user]
+
+  target: dev
